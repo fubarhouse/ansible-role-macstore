@@ -1,0 +1,14 @@
+---
+
+#
+# Mac Apple Store
+#
+# Apps to install from the app store.
+# Array of App ID's and names are validate.
+#
+
+mac_store_apps:
+  - name: BlackMagic Disk Speed test
+    id: 425264550
+  - name: Microsoft OneDrive
+    id: 823766827
