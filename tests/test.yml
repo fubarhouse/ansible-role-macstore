@@ -6,5 +6,5 @@
     app_store_password: ''
     mac_store_apps: []
   roles:
-    - ansible-role-homebrew
+    - geerlingguy.homebrew
     - fubarhouse.macstore
