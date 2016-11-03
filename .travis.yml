@@ -10,6 +10,8 @@ addons:
   apt:
     packages:
     - python-pip
+  ssh_known_hosts:
+  - galaxy.ansible.com
 
 install:
   # Install ansible
