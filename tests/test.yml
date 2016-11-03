@@ -1,7 +1,7 @@
 ---
 - hosts: localhost
   sudo: true
-  remote_user: root
+  remote_user: travis
   vars:
     app_store_email: ''
     app_store_password: ''
