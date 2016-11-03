@@ -1,5 +1,9 @@
 ---
 - hosts: localhost
   remote_user: root
+  vars:
+    app_store_email: ''
+    app_store_password: ''
+    mac_store_apps: []
   roles:
     - fubarhouse.macstore
