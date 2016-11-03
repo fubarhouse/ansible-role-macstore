@@ -1,5 +1,6 @@
 ---
 - hosts: localhost
+  sudo: true
   remote_user: root
   vars:
     app_store_email: ''
