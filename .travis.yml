@@ -24,6 +24,8 @@ install:
   - printf '[defaults]\nroles_path=../' >ansible.cfg
 
 script:
+  # Get homebrew
+  - /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
   # Install the role from GitHub master
   - ansible-galaxy install -r tests/requirements.yml
   # Basic role syntax check
