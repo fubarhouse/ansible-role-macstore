@@ -1,11 +1,10 @@
 ---
+
 - hosts: localhost
-  sudo: true
-  remote_user: travis
   vars:
     app_store_email: ''
     app_store_password: ''
     mac_store_apps: []
   roles:
-    - geerlingguy.homebrew
+    - ansible-role-homebrew
     - fubarhouse.macstore
